@@ -62,6 +62,8 @@ const Navbar = () => {
           </SheetContent>
         </Sheet>
 
+        
+
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 items-center">
         <Link href="/" className="text-black text-base font-medium hover:text-black hover:text-lg transition-colors">
