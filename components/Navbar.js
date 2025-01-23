@@ -37,7 +37,7 @@ const Navbar = () => {
             <SheetHeader>
               <SheetTitle className="text-lg font-bold">BlogVerse</SheetTitle>
             </SheetHeader>
-            <div className="flex flex-col mt-4 space-y-4">
+            <div className="flex flex-col mt-4 space-y-4 container mx-auto flex justify-between items-center">
               <Link href="/" className="text-base hover:underline">
                 Home
               </Link>
@@ -50,12 +50,14 @@ const Navbar = () => {
               <Link href="/contact" className="text-base hover:underline">
                 Contact
               </Link>
-              <Button variant="outline" className="border-black text-black hover:bg-white hover:text-blue-500 transition-colors">
-                Login
+              <div className="flex space-x-4"> {/* Ensures the buttons are in the same row */}
+                <Button variant="outline" className="border-black text-black hover:bg-white hover:text-blue-500 transition-colors">
+                 Login
               </Button>
               <Button variant="outline" className="border-black text-black hover:bg-white hover:text-blue-500 transition-colors">
-                Signup
+                  Signup
               </Button>
+            </div>
             </div>
           </SheetContent>
         </Sheet>
