@@ -11,6 +11,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { ModeToggle } from "./theme-btn";
 
 const Navbar = () => {
   return (
@@ -85,6 +86,7 @@ const Navbar = () => {
           <Button variant="outline" className="border-black text-black hover:bg-white hover:text-blue-500 transition-colors">
             Signup
           </Button>
+          <ModeToggle></ModeToggle>
         </div>
       </div>
     </nav>
