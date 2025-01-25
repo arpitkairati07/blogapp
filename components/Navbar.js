@@ -15,7 +15,7 @@ import { ModeToggle } from "./theme-btn";
 
 const Navbar = () => {
   return (
-    <nav className="p-4 sticky top-0 backdrop-blur-lg bg-transparent">
+    <nav className="p-4 sticky top-0 backdrop-blur-lg bg-transparent z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-extrabold text-black dark:text-white">

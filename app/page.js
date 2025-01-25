@@ -20,7 +20,7 @@ export default function Home() {
     }, []); 
 
   return (
-    <main>
+    <main className="scroll-smooth">
       <section className="container px-4 py-10 mx-auto lg:h-128 lg:space-x-8 lg:flex lg:items-center">
         <div className="w-full text-center lg:text-left lg:w-1/2 lg:-mt-8">
           <h1 className="text-3xl leading-snug text-gray-800 dark:text-gray-200 md:text-4xl">
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </section>
 
-<section className="py-12 bg-gray-100 dark:bg-gray-900">
+<section className="py-12 dark:bg-gray-900 bg-transparent">
   <div className="container px-4 mx-auto">
     <div className="text-center mb-12">
       <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-200">Pricing Plans</h2>
@@ -48,8 +48,8 @@ export default function Home() {
     </div>
     <div className="flex flex-wrap justify-center">
       {/* Basic Plan */}
-      <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-        <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
+      <div className="w-full sm:w-1/2 lg:w-1/3 p-4 bg-transparent">
+        <div className="p-6 bg-transparent rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
           <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">Basic</h3>
           <p className="mt-4 text-gray-500 dark:text-gray-300">$10/month</p>
           <ul className="mt-6 mb-6 space-y-4">
