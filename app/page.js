@@ -10,7 +10,7 @@ export default function Home() {
     useEffect(() => {
       const typed = new Typed(el.current, {
         strings: ['Coding', 'Web Development', 'Software Engineering', 'Data Science', 'Machine Learning'],
-        typeSpeed: 50,
+        typeSpeed: 50,loop:true,backSpeed: 50,
       });
   
       return () => {
